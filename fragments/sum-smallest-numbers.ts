@@ -10,9 +10,3 @@ function sumSmallestNumbers(numbers: Array<number>): number {
     //calculate and return the sum of first and second numbers in the sorted array
     return sortedNumbers[0] + sortedNumbers[1];
 }
-
-console.log(sumSmallestNumbers([1, 2, 3, 4]));
-console.log(sumSmallestNumbers([6, 7, 56, 2, 9, 34, 3]));
-console.log(sumSmallestNumbers([4, 4]));
-console.log(sumSmallestNumbers([5, 38, 15, 1, 1, -19, 9]));
-console.log(sumSmallestNumbers([1, 1, 1, 1]));
